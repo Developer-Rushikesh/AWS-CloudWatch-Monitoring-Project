@@ -79,3 +79,6 @@ Disk monitoring
 Logs monitoring
 CloudWatch Dashboard
 Auto Scaling integration
+
+Aouthor :-
+Rushikesh Pawar
