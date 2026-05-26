@@ -1,0 +1,23 @@
+# Connect EC2
+ssh -i mykey.pem ubuntu@PUBLIC-IP
+
+# Update system
+sudo apt update
+
+# Install nginx
+sudo apt install nginx -y
+
+# Start nginx
+sudo systemctl start nginx
+
+# Enable nginx
+sudo systemctl enable nginx
+
+# Check nginx status
+sudo systemctl status nginx
+
+# Install stress tool
+sudo apt install stress -y
+
+# Generate CPU load
+stress --cpu 4 --timeout 300
